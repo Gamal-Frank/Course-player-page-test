@@ -327,7 +327,6 @@ const CourseContent: React.FC = () => {
         </div>
       </div>
 
-      {/* Popups are rendered here, outside the main flow */}
       <LeaderboardPopup
         show={showLeaderboard}
         onClose={() => setShowLeaderboard(false)}
