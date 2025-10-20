@@ -317,7 +317,7 @@ const CourseContent: React.FC = () => {
           <div>
             <CourseMaterials />
           </div>
-          <div ref={curriculumRef}>
+          <div className="block md:hidden" ref={curriculumRef}>
             <MobileCourseContent />
           </div>
 
